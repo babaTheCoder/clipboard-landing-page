@@ -16,7 +16,6 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -27,17 +26,13 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
-
-![](./screenshot.jpg)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/babaTheCoder/clipboard-landing-page.git)
-- Live Site URL: [Add live site URL here](https://clipboard-landing-page-green-xi.vercel.app)
+- Solution URL: https://github.com/babaTheCoder/clipboard-landing-page.git
+- Live Site URL: https://clipboard-landing-page-green-xi.vercel.app
 
-## My process
 
 ### Built with
 
