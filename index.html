@@ -16,7 +16,7 @@
     <title>Frontend Mentor | Clipboard landing page</title>
   </head>
   <body>
-    <header>
+    <header class="flex">
       <!--Icon will appear here-->
       <img src="./images/logo.svg" alt="Clipboard Logo" />
       <div class="header-text">
@@ -39,31 +39,36 @@
         iOS apps will help you organize everything.
       </p>
     </article>
-    <article class="section-2">
+    <article class="section-2 flex">
       <div class="section-2-image">
         <!---Image of Mac will appear here-->
         <img src="./images/image-computer.png" alt="computer" />
       </div>
-      <div class="section-2-text">
-        <h3>Quick Search</h3>
+      <div class="section-2-text flex">
+        <div>
+          <h3>Quick Search</h3>
 
-        <p>
-          Easily search your snippets by content, category, web address,
-          application, and more.
-        </p>
+          <p>
+            Easily search your snippets by content, category, web address,
+            application, and more.
+          </p>
+        </div>
+        <div>
+          <h3>iCloud Sync</h3>
 
-        <h3>iCloud Sync</h3>
+          <p>Instantly saves and syncs snippets across all your devices.</p>
+        </div>
+        <div>
+          <h3>Complete History</h3>
 
-        <p>Instantly saves and syncs snippets across all your devices.</p>
-
-        <h3>Complete History</h3>
-
-        <p>
-          Retrieve any snippets from the first moment you started using the app.
-        </p>
+          <p>
+            Retrieve any snippets from the first moment you started using the
+            app.
+          </p>
+        </div>
       </div>
     </article>
-    <article class="section-3">
+    <article class="section-3 flex">
       <div class="section-3-access">
         <h3>Access Clipboard anywhere</h3>
 
@@ -82,7 +87,7 @@
         <p>We’ve got the tools to boost your productivity.</p>
       </div>
     </article>
-    <article class="features">
+    <article class="features flex">
       <div class="feature-blacklist">
         <!--Folding Paper Icon appears here-->
         <img src="./images/icon-blacklist.svg" alt="blacklist" />
@@ -110,14 +115,14 @@
         <p>Quick preview of all snippets on your Clipboard for easy access.</p>
       </div>
     </article>
-    <article class="logo-section">
+    <article class="logo-section flex">
       <img src="./images/logo-google.png" alt="Google" />
       <img src="./images/logo-ibm.png" alt="IBM" />
       <img src="./images/logo-microsoft.png" alt="Microsoft" />
       <img src="./images/logo-hp.png" alt="Hp" />
       <img src="./images/logo-vector-graphics.png" alt="Vector Graphics" />
     </article>
-    <article class="call-to-action">
+    <article class="call-to-action flex">
       <h2>Clipboard for iOS and Mac OS</h2>
 
       <p>
@@ -129,23 +134,23 @@
         <button class="mac-btn">Download for Mac</button>
       </div>
     </article>
-    <nav>
+    <nav class="flex">
       <img src="./images/logo.svg" alt="Clipboard Logo" />
-      <ul>
+      <ul class="flex">
         <li><a href="#"> FAQs </a></li>
         <li><a href="#"> Contact Us </a></li>
         <li><a href="#"> Privacy Policy </a></li>
         <li><a href="#"> Press Kit</a></li>
         <li><a href="#"> Install Guide</a></li>
       </ul>
-      <div class="socials">
-        <a href="https://www.facebook.com"
+      <div class="socials flex">
+        <a href="https://www.facebook.com" taget="_blank"
           ><img src="./images/icon-facebook.svg" alt="Facebook"
         /></a>
-        <a href="https://twitter.com"
+        <a href="https://twitter.com" target="_blank"
           ><img src="./images/icon-twitter.svg" alt="X"
         /></a>
-        <a href="https://www.instagram.com"
+        <a href="https://www.instagram.com" target="_blank"
           ><img src="./images/icon-instagram.svg" alt="Instagram"
         /></a>
       </div>
@@ -156,7 +161,7 @@
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by <a href="#">Mark Konlan</a>.
       </p>
     </footer>
   </body>

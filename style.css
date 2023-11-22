@@ -39,6 +39,8 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  text-align: center;
+  background-color: white;
 }
 
 /*
@@ -98,12 +100,229 @@ li {
 
 /*CSS RESET ENDS HERE*/
 
+/* HEADER CSS*/
+.flex {
+  display: flex;
+}
+
+header {
+  flex-direction: column;
+  align-items: center;
+  padding-block: 3em;
+  background-image: url(./images/bg-header-desktop.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.header-text {
+  margin: 2rem;
+  text-align: center;
+}
+
+.header-text>h1,
+.section-1 h2,
+.section-3 div h3,
+.call-to-action h2 {
+  margin-block: 1rem;
+  color: var(--dark-grayish-blue);
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.header-text>p,
+.section-1 p,
+.section-3 div p,
+.features div p,
+.call-to-action p {
+  margin: 0 auto;
+  width: 80%;
+  color: var(--grayish-blue);
+}
+
+.action-buttons button {
+  padding: .5rem 1rem;
+  border-radius: 35px;
+  box-shadow: 2px 2px 4px grey;
+  border-style: none;
+  color: white;
+  transition: ease-in 300ms;
+}
+
+.action-buttons .ios-btn {
+  background-color: var(--strong-cyan);
+}
+
+.action-buttons .mac-btn {
+  background-color: var(--light-blue);
+}
+
+.ios-btn:hover,
+ios.btn:active {
+  box-shadow: 2px 4px 8px var(--strong-cyan);
+  transform: scale(1.05);
+}
+
+.mac-btn:hover,
+.mac.btn:active {
+  box-shadow: 2px 4px 8px var(--light-blue);
+  transform: scale(1.05);
+}
+
+/*BASIC ANIMATION OF ALL IMAGES*/
+img {
+  object-fit: contain;
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 300ms;
+}
+
+img:hover {
+  rotate: -3deg;
+}
+
+/*IMAGE ANIMATION CSS ENDS HERE*/
+
+/*HEADER CSS ENDS HERE*/
+
+/*SECTION-1 CSS*/
+.section-1 {
+  text-align: center;
+  margin-block: 4rem;
+}
+
+.section-1 p {
+  width: 50%;
+}
+
+
+/*SECTION-1 CSS ENDS HERE*/
+
+/*SECTION-2 CSS*/
+.section-2 {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.section-2 .section-2-text {
+  margin-top: 4em;
+  margin-right: auto;
+  flex-direction: column;
+  gap: 10%;
+  text-align: justify;
+}
+
+.section-2-text div {
+  max-width: 400px;
+}
+
+.section-2-text div h3 {
+  color: var(--dark-grayish-blue);
+}
+
+.section-2-text p {
+  color: var(--grayish-blue);
+}
+
+/*SECTION-2 CSS ENDS HERE*/
+
+/*SECTION-3 CSS*/
+.section-3 {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-block: 10rem;
+}
+
+
+.section-3-devices {
+  margin: 4rem;
+}
+
+/*SECTION-3 CSS ENDS HERE*/
+
+/*FEATURES SECTION CSS*/
+.features {
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.features div {
+  flex: 1;
+}
+
+.features div h4 {
+  color: var(--dark-grayish-blue);
+  font-size: 20px;
+}
+
+.features div img {
+  display: inline-block;
+}
+
+/*FEATURES SECTION CSS ENDS HERE*/
+
+/*LOGO SECTION CSS*/
+.logo-section {
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin-block: 4em;
+}
+
+/*LOGO SECTION CSS ENDS HERE*/
+
+/*CALL-TO-ACTION SECTION CSS*/
+.call-to-action {
+  flex-direction: column;
+  align-items: center;
+  margin: 3em auto;
+  text-align: center;
+}
+
+.call-to-action p {
+  max-width: 700px;
+}
+
+.call-to-action .action-buttons {
+  margin: 2em;
+}
+
+/*CALL-TO-ACTION CSS ENDS HERE*/
+
+/*NAVIGATION SECTION CSS*/
+nav {
+  justify-content: space-between;
+  padding: 2em 5em 0 5em;
+  align-items: center;
+  background-color: var(--grayish-blue);
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+
+ul,
+.socials {
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+li a {
+  color: var(--dark-grayish-blue);
+}
+
+/*NAVIGATION SECTION CSS ENDS HERE*/
+
 /*
   Attribution styling
 */
 .attribution {
   font-size: 11px;
   text-align: center;
+  background-color: var(--grayish-blue);
 }
 
 .attribution a {
